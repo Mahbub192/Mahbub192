@@ -1,30 +1,80 @@
-![Web Development](https://media.licdn.com/dms/image/D4E16AQHUM3Kem6wr4g/profile-displaybackgroundimage-shrink_350_1400/0/1685078951994?e=1690416000&v=beta&t=UWdEGFklbfV_-jyWX_EI0thm8bFFKsTuEuGI8SvZ7OY)
+# 👋 Hello, I'm Mahbub Ali
 
-### Hi there 👋, I'am Mahbub Ali
-#### Web Development
+## 🚀 Mobile App Developer | React Native & MERN Stack Enthusiast
 
+I am a passionate **Mobile App Developer** specializing in **React Native** and **MERN Stack** technologies, with nearly **2 years** of experience crafting scalable, high-performance applications. I am committed to continuous learning, clean code practices, and building seamless user experiences. My goal is to contribute meaningfully to dynamic teams and create impactful digital solutions.
 
-I am an experienced and passionate MEAN Stack Developer with expertise in both front-end and back-end development. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like  React, I create user-friendly and visually appealing interfaces. On the back-end, I excel in utilizing the power of MongoDB, Express.js, and Node.js to build scalable and efficient web applications. My projects have ranged from small-scale applications to complex enterprise solutions, where I have implemented RESTful APIs, and integrated databases, and ensured seamless functionality. I am highly skilled in collaborating with cross-functional teams, contributing to brainstorming sessions, and resolving technical challenges. With a commitment to continuous learning, I stay updated on the latest industry trends and emerging technologies. I am dedicated to delivering high-quality solutions that exceed client expectations and contribute to the success of every project.
+---
 
-Skills:  REACT/Express JS / JS / HTML / CSS
+## 🧩 Technical Expertise
 
-- 🌱 I’m currently learning JavaScript 
-- 👯 I’m looking to collaborate on github 
-- 💬 Ask me about Web Development 
+- **Mobile Development:** React Native, Android (Java/Kotlin basics), iOS (Swift basics)
+- **Web Development:** React.js, Next.js, Angular
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **State Management:** Redux
+- **Authentication & Security:** Firebase, JWT Authentication
+- **UI/UX:** Tailwind CSS, Bootstrap 4
+- **Version Control:** Git, GitHub
+- **Tools & Platforms:** Xcode, Android Studio, Google Play Console
+- **Operating Systems:** Windows, Linux (Ubuntu)
 
+---
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Mahbub192)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/mahbub-ali192/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/MahbubAli192)  
+## 🛠️ Professional Experience
 
-<a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> 
+### 📍 Farazy MaxIT
+**Software Engineer – React Native Developer** (December 2023 – Present)
+- Architect and develop cross-platform mobile applications using React Native.
+- Implement new features, performance optimizations, and UI/UX improvements.
+- Collaborate closely with cross-functional teams to deliver high-quality releases.
+- Participate actively in code reviews, refactoring, and debugging to maintain codebase quality.
+- Stay updated with the latest trends in mobile development and industry best practices.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahbub192)](https://github.com/anuraghazra/github-readme-stats)
+### 📍 Azzin LLC (Part-Time)
+**Junior Software Engineer – MERN Stack** (April 2023 – January 2024)
+- Designed and developed mobile applications ensuring compatibility for both Android and iOS.
+- Enhanced application performance and optimized user experience.
+- Worked closely with teams to align technical efforts with business objectives.
+- Provided technical mentorship and support to junior developers.
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Mahbub192&show_icons=true&count_private=true)  
+---
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Mahbub192)  
+## 🎯 Core Strengths
 
-![GitHub metrics](https://metrics.lecoq.io/Mahbub192)  
+- Strong problem-solving and analytical skills
+- Excellent collaboration and teamwork abilities
+- Fast learner and adaptive to new technologies
+- Focused on delivering optimized, scalable, and user-centric applications
+- Passionate about clean code, best practices, and continuous improvement
 
-![GitHub streak stats](https://streak-stats.demolab.com/?user=Mahbub192)  
+---
 
-![Profile views](https://gpvc.arturio.dev/Mahbub192)  
+## 🎓 Academic Background
+
+**Bachelor of Science (B.Sc.) in Computer Science and Engineering (CSE)**  
+Green University of Bangladesh  
+_2019 – 2023_
+
+---
+
+## 🌟 Featured Project
+
+- **[Health Connect Mobile App](https://play.google.com/store/apps/details?id=com.farazymaxit.open_mrs_mobileapp&hl=en-US&ah=wB4pegbJiAJksbqeLh8_4AVdie0&pli=1)** – A healthcare-focused application available on the Google Play Store.
+
+---
+
+## 📬 Let's Connect
+
+- 📧 Email: **mahbubaligub192@gmail.com**
+- 📱 Phone: **+8801705359706**
+- 📍 Location: **Mirpur-14, Dhaka, Bangladesh**
+- 🔗 LinkedIn: [**Mahbub Ali**](https://www.linkedin.com/in/mahbub-ali-670237280/)
+
+---
+
+> "Technology is best when it brings people together. I strive to build digital solutions that connect, empower, and inspire."  
+> — Mahbub Ali
+
+---
+
