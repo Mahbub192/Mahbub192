@@ -16,7 +16,7 @@ I am a passionate **Mobile App Developer** specializing in **React Native** and 
 - **Authentication & Security:** Firebase, JWT Authentication
 - **UI/UX:** Tailwind CSS, Bootstrap 4
 - **Version Control:** Git, GitHub
-- **Tools & Platforms:** Xcode, Android Studio, Google Play Console
+- **Tools & Platforms:** Xcode, Android Studio, Play Store, App Store
 - **Operating Systems:** Windows, Linux (Ubuntu)
 
 ---
