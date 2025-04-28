@@ -32,12 +32,20 @@ I am a passionate **Mobile App Developer** specializing in **React Native** and 
 - Stay updated with the latest trends in mobile development and industry best practices.
 
 ### 📍 Azzin LLC (Part-Time)
-**Junior Software Engineer – MERN Stack** (April 2023 – January 2024)
+**React Native Developer** (February 2025 – Present)
 - Designed and developed mobile applications ensuring compatibility for both Android and iOS.
 - Enhanced application performance and optimized user experience.
 - Worked closely with teams to align technical efforts with business objectives.
 - Provided technical mentorship and support to junior developers.
 
+### 📍 Achieve IT Limited
+**Jr. Software Engineer** (April 2023 – January 2024)
+- Implement new features, performance optimizations, and UI/UX improvements.
+- Collaborated with product team members to implement new feature developments.
+- Design, implement, and Manage DB for efficient data storage and retrieval. Relational data management in MongoDB.
+- Stay updated with the latest trends in mobile development and industry best practices.
+
+  
 ---
 
 ## 🎯 Core Strengths
