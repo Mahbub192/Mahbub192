@@ -14,8 +14,6 @@ I am a passionate **Mobile App Developer** specializing in **React Native** and 
 - **Database:** MongoDB
 - **State Management:** Redux
 - **Authentication & Security:** Firebase, JWT Authentication
-- **UI/UX:** Tailwind CSS, Bootstrap 4
-- **Version Control:** Git, GitHub
 - **Tools & Platforms:** Xcode, Android Studio, Play Store, App Store
 - **Operating Systems:** Windows, Linux (Ubuntu)
 
@@ -32,7 +30,7 @@ I am a passionate **Mobile App Developer** specializing in **React Native** and 
 - Stay updated with the latest trends in mobile development and industry best practices.
 
 ### 📍 Azzin LLC (Part-Time)
-**React Native Developer** (February 2025 – Present)
+**Software Engineer** (February 2025 – Present)
 - Designed and developed mobile applications ensuring compatibility for both Android and iOS.
 - Enhanced application performance and optimized user experience.
 - Worked closely with teams to align technical efforts with business objectives.
