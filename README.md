@@ -1,338 +1,338 @@
 # Health Connect Mobile — QA Test Checklist
 
 **Document for:** QA Team  
-**Purpose:** অ্যাপ ওপেন করে এই লিস্ট অনুযায়ী প্রতিটি স্ক্রিন ও ফিচার ভেরিফাই করা।  
-**How to use:** প্রতিটি আইটেমে **Steps** অনুসরণ করে অ্যাপে যান, তারপর **Expected Result** মিলে কিনা চেক করে **Pass/Fail** টিক দিন।
+**Purpose:** Verify every screen and feature by opening the app and following this list.  
+**How to use:** For each item, follow the **Steps** to navigate in the app, then check whether the **Expected Result** matches. Tick **Pass** or **Fail** accordingly.
 
 ---
 
-## কিভাবে টেস্ট করবেন
+## How to Test
 
-1. অ্যাপ ইনস্টল করে লগইন করুন (যে ইউজার টাইপ টেস্ট করবেন সেই অ্যাকাউন্টে)।
-2. নিচের **Steps** ধাপে ধাপে ফলো করুন।
-3. **Expected Result** অনুযায়ী স্ক্রিন/বিহেভিয়ার মিলছে কিনা দেখুন।
-4. মিললে **Pass**, না মিললে **Fail** এবং নোট লিখুন।
+1. Install the app and log in with the user type you want to test.
+2. Follow the **Steps** for each test case in order.
+3. Check whether the screen/behaviour matches the **Expected Result**.
+4. Tick **Pass** if it matches, **Fail** if not, and add a note in **Notes** when needed.
 
 ---
 
-# Part A — Bottom Tabs (নিচের ট্যাব বার)
+# Part A — Bottom Tabs
 
 ---
 
 ## A1. Home Tab
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| A1.1 | হোম ড্যাশবোর্ড | অ্যাপ ওপেন করুন। নিচে **Home** ট্যাব সিলেক্ট থাকবে। | হোম স্ক্রিন লোড হবে; মেনু/কার্ড/সেবার লিস্ট দেখা যাবে। হেডার সবুজ (#3BB54A)। | ☐ | ☐ | |
-| A1.2 | আমার অ্যাপয়েন্টমেন্ট | Home → যে অপশন থেকে "My Appointment" / "আমার অ্যাপয়েন্টমেন্ট" ওপেন হয় সেখানে ট্যাপ করুন। | অ্যাপয়েন্টমেন্ট লিস্ট/ইউআই ওপেন হবে। | ☐ | ☐ | |
-| A1.3 | অনলাইন ল্যাব রিপোর্ট | Home → ল্যাব রিপোর্ট/অনলাইন রিপোর্ট লিংক বা বাটনে ট্যাপ। | অনলাইন ল্যাব রিপোর্ট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.4 | নোটিফিকেশন লিস্ট | Home → নোটিফিকেশন আইকন/মেনু। | নোটিফিকেশন লিস্ট পেজ ওপেন হবে। | ☐ | ☐ | |
-| A1.5 | সিঙ্গেল নোটিফিকেশন | Home → Notifications → কোনো নোটিফিকেশনে ট্যাপ। | সিঙ্গেল নোটিফিকেশন ডিটেইল ওপেন হবে। | ☐ | ☐ | |
-| A1.6 | ফ্যামিলি হেলথ কার্ড | Home → ফ্যামিলি হেলথ কার্ড/পরিবার কার্ড অপশন। | ফ্যামিলি হেলথ কার্ড স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.7 | হেল্পলাইন | Home → হেল্পলাইন/কন্টাক্ট অপশন। | হেল্পলাইন নম্বর/ইউআই ওপেন হবে। | ☐ | ☐ | |
-| A1.8 | হেলথ কার্ড | Home → হেলথ কার্ড/ইহেলথ কার্ড। | হেলথ কার্ড স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.9 | অ্যাম্বুলেন্স বুকিং | Home → অ্যাম্বুলেন্স বুকিং। | অ্যাম্বুলেন্স বুকিং ফর্ম/স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.10 | আপকামিং ফিচার | Home → যে কার্ড/লিংক "Upcoming" বা সমতুল্য সেখানে ট্যাপ। | আপকামিং ফিচার মেসেজ/পেজ ওপেন হবে। | ☐ | ☐ | |
-| A1.11 | স্পেশালাইজড ডিপার্টমেন্ট (অ্যাপয়েন্টমেন্ট) | Home → অ্যাপয়েন্টমেন্ট/ডিপার্টমেন্ট সিলেকশন। | ডিপার্টমেন্ট লিস্ট বা অ্যাপয়েন্টমেন্ট ফ্লো ওপেন হবে। | ☐ | ☐ | |
-| A1.12 | আমার সেবা | Home → "My Service" / আমার সেবা। | ইউজারের বুকড সেবার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.13 | মাই প্রোফাইল (হোম থেকে) | Home → প্রোফাইল/অ্যাকাউন্ট লিংক (যদি থাকে)। | প্রোফাইল/অ্যাকাউন্ট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.14 | আমার পরিবার | Home → My Family / আমার পরিবার। | পরিবারের মেম্বার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.15 | পরিবারের সদস্য যোগ | Home → My Family → Add Member / সদস্য যোগ। | Add Family Member ফর্ম ওপেন হবে। | ☐ | ☐ | |
-| A1.16 | ফার্মেসি | Home → ফার্মেসি/ওষুধের দোকান। | ফার্মেসি স্ক্রিন/ক্যাটালগ ওপেন হবে। | ☐ | ☐ | |
-| A1.17 | পরিবার এডিট | Home → My Family → কোনো মেম্বার সিলেক্ট → এডিট। | এডিট ফ্যামিলি মেম্বার স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.18 | ডাক্তার লিস্ট | Home → ডাক্তার অ্যাপয়েন্টমেন্ট/ডাক্তার খুঁজুন → ডাক্তার লিস্ট। | ডাক্তার লিস্ট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.19 | ডাক্তার প্রোফাইল (Personal Info) | Home → ডাক্তার লিস্ট → কোনো ডাক্তারে ট্যাপ। | ডাক্তার প্রোফাইল (নাম, স্পেশালিটি, স্লট ইত্যাদি) ওপেন হবে। | ☐ | ☐ | |
-| A1.20 | আমার ডাক্তার | Home → My Doctor / আমার ডাক্তার। | সেভ করা/বুক করা ডাক্তার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.21 | ডাক্তার স্লট বুকিং | Home → ডাক্তার সিলেক্ট → স্লট বুক/তারিখ সিলেক্ট। | স্লট সিলেকশন স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.22 | অনলাইন লিংক (রিপোর্ট) | Home → রিপোর্ট/অনলাইন লিংক (২য় ভার্সন)। | অনলাইন রিপোর্ট লিংক পেজ ওপেন হবে। | ☐ | ☐ | |
-| A1.23 | আমার ডাক্তার স্লট | Home → My Doctor → স্লট/শিডিউল। | আমার ডাক্তার স্লট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.24 | পছন্দের ডাক্তার লিস্ট | Home → Add to Favorites / পছন্দের ডাক্তার লিস্ট। | ফেভারিট ডাক্তার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.25 | অ্যাপয়েন্টমেন্ট কনফার্মেশন | Home → ডাক্তার বুকিং ফ্লো সম্পন্ন → কনফার্ম। | কনফার্মেশন স্ক্রিন (সাকসেস/ডিটেইল) ওপেন হবে। | ☐ | ☐ | |
-| A1.26 | আমার অর্ডার | Home → My Orders / আমার অর্ডার। | অর্ডার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.27 | জেনারেল হাসপাতাল শাখা | Home → জেনারেল হাসপাতাল/ব্রাঞ্চ। | ব্রাঞ্চ লিস্ট বা ম্যাপ ওপেন হবে। | ☐ | ☐ | |
-| A1.28 | আমার ডাক্তার শাখা | Home → My Doctor → শাখা/ব্রাঞ্চ। | ডাক্তারের শাখা তথ্য ওপেন হবে। | ☐ | ☐ | |
-| A1.29 | আমার উপস্থিতি | Home → My Attendance (যদি মেনুতে থাকে)। | অ্যাটেনডেন্স স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.30 | আমার রিপোর্ট | Home → My Report / আমার রিপোর্ট। | রিপোর্ট লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.31 | ফুল বডি চেকআপ | Home → ফুল বডি চেকআপ/হেলথ প্যাকেজ। | ফুল বডি চেকআপ স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.32 | হোম কল সেবা | Home → হোম কল সেবা/Home Call Service। | হোম কল সেবা বুকিং/ইউআই ওপেন হবে। | ☐ | ☐ | |
-| A1.33 | জেনারেল সেবা | Home → জেনারেল সেবা। | জেনারেল সেবা স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.34 | ফিজিও থেরাপি সেবা | Home → ফিজিও থেরাপি। | ফিজিও থেরাপি সেবা স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.35 | সিঙ্গেল অর্ডার ডিটেইল | Home → My Orders → কোনো অর্ডারে ট্যাপ। | অর্ডার ডিটেইল পেজ ওপেন হবে। | ☐ | ☐ | |
-| A1.36 | রিপোর্ট ডিটেইল | Home → My Report / রিপোর্ট লিস্ট → কোনো রিপোর্ট। | রিপোর্ট ডিটেইল ওপেন হবে। | ☐ | ☐ | |
-| A1.37 | পিডিএফ ভিউয়ার | যেকোনো রিপোর্ট ডিটেইল → পিডিএফ ভিউ/ডাউনলোড। | পিডিএফ ভিউয়ারে রিপোর্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.38 | মাল্টি পিডিএফ ভিউয়ার | যেখানে একাধিক পিডিএফ দেখানো হয় সেখানে ট্যাপ। | একাধিক পিডিএফ ভিউ/লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.39 | রিপোর্ট ট্র্যাকিং | Home/Report → রিপোর্ট ট্র্যাকিং। | রিপোর্ট স্ট্যাটাস/ট্র্যাকিং ওপেন হবে। | ☐ | ☐ | |
-| A1.40 | প্রেসক্রিপশন | Home → প্রেসক্রিপশন (যদি মেনুতে থাকে)। | প্রেসক্রিপশন লিস্ট/ডিটেইল ওপেন হবে। | ☐ | ☐ | |
-| A1.41 | অনলাইন সেবা | Home → অনলাইন সেবা। | অনলাইন সেবা মেনু/লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.42 | ল্যাব টেস্ট স্ক্রিন | Home → ল্যাব টেস্ট/টেস্ট বুক। | ল্যাব টেস্ট লিস্ট/ক্যাটাগরি ওপেন হবে। | ☐ | ☐ | |
-| A1.43 | হেলথ প্যাকেজ স্ক্রিন | Home → হেলথ প্যাকেজ। | হেলথ প্যাকেজ লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.44 | BMI ক্যালকুলেটর | Home → BMI ক্যালকুলেটর। | BMI ক্যালকুলেটর ফর্ম/রেজাল্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.45 | কার্ট | Home → কার্ট আইকন/কার্ট। | কার্ট স্ক্রিন (আইটেম লিস্ট) ওপেন হবে। | ☐ | ☐ | |
-| A1.46 | তথ্য নেওয়া (Take Information) | Home → ল্যাব/টেস্ট বুক ফ্লো → তথ্য নেওয়া স্টেপ। | ইউজার ইনপুট ফর্ম ওপেন হবে। | ☐ | ☐ | |
-| A1.47 | হেলথ স্ক্রিন প্যাকেজ | Home → হেলথ স্ক্রিন প্যাকেজ। | হেলথ স্ক্রিন প্যাকেজ স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.48 | ল্যাব টেস্ট (হোম থেকে) | Home → ল্যাব টেস্ট মেনু। | ল্যাব টেস্ট সেকশন ওপেন হবে। | ☐ | ☐ | |
-| A1.49 | ভাইটাল অর্গান | Home → ভাইটাল অর্গান/অঙ্গ পরীক্ষা। | ভাইটাল অর্গান টেস্ট/ইউআই ওপেন হবে। | ☐ | ☐ | |
-| A1.50 | লাইভ চ্যাট | Home → লাইভ চ্যাট। | লাইভ চ্যাট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.51 | চ্যাটজিপিটি | Home → ChatGPT/AI চ্যাট। | চ্যাট ইন্টারফেস ওপেন হবে। | ☐ | ☐ | |
-| A1.52 | NEC ট্রাভেলস | Home → NEC ট্রাভেলস (যদি থাকে)। | NEC ট্রাভেলস স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A1.53 | হেলথ প্যাকেজ কার্ট | Home → হেলথ প্যাকেজ সিলেক্ট → কার্ট। | হেলথ প্যাকেজ কার্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.54 | ওয়েব ভিউ | যেকোনো লিংক যেটা ইন-অ্যাপ ওয়েব ভিউ খোলে। | ওয়েবপেজ ইন-অ্যাপ ওপেন হবে। | ☐ | ☐ | |
-| A1.55 | সেবা ডিপার্টমেন্ট | Home → সেবা ডিপার্টমেন্ট। | সেবা অনুযায়ী ডিপার্টমেন্ট লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A1.56 | পাসওয়ার্ড ভুলে যাওয়া | লগইন স্ক্রিন → Forget Password (যদি হোম থেকে লিংক থাকে)। | রিসেট পাসওয়ার্ড ফ্লো ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| A1.1 | Home dashboard | Open the app. The **Home** tab should be selected at the bottom. | Home screen loads; menu/cards/service list visible. Header green (#3BB54A). | ☐ | ☐ | |
+| A1.2 | My Appointment | Home → tap the option that opens "My Appointment". | Appointment list/UI opens. | ☐ | ☐ | |
+| A1.3 | Online Lab Report | Home → tap Lab Report / Online Report link or button. | Online lab report screen opens. | ☐ | ☐ | |
+| A1.4 | Notification list | Home → tap Notification icon/menu. | Notification list page opens. | ☐ | ☐ | |
+| A1.5 | Single notification | Home → Notifications → tap any notification. | Single notification detail opens. | ☐ | ☐ | |
+| A1.6 | Family Health Card | Home → Family Health Card / family card option. | Family Health Card screen opens. | ☐ | ☐ | |
+| A1.7 | Helpline | Home → Helpline / Contact option. | Helpline number/UI opens. | ☐ | ☐ | |
+| A1.8 | Health Card | Home → Health Card / eHealth Card. | Health Card screen opens. | ☐ | ☐ | |
+| A1.9 | Ambulance Booking | Home → Ambulance Booking. | Ambulance booking form/screen opens. | ☐ | ☐ | |
+| A1.10 | Upcoming feature | Home → tap card/link for "Upcoming" or similar. | Upcoming feature message/page opens. | ☐ | ☐ | |
+| A1.11 | Specialized Department (Appointment) | Home → Appointment / Department selection. | Department list or appointment flow opens. | ☐ | ☐ | |
+| A1.12 | My Service | Home → "My Service". | User's booked services list opens. | ☐ | ☐ | |
+| A1.13 | My Profile (from Home) | Home → Profile / Account link (if present). | Profile/Account screen opens. | ☐ | ☐ | |
+| A1.14 | My Family | Home → My Family. | Family member list opens. | ☐ | ☐ | |
+| A1.15 | Add Family Member | Home → My Family → Add Member. | Add Family Member form opens. | ☐ | ☐ | |
+| A1.16 | Pharmacy | Home → Pharmacy. | Pharmacy screen/catalog opens. | ☐ | ☐ | |
+| A1.17 | Edit Family | Home → My Family → select a member → Edit. | Edit family member screen opens. | ☐ | ☐ | |
+| A1.18 | Doctor List | Home → Doctor Appointment / Find Doctor → Doctor list. | Doctor list screen opens. | ☐ | ☐ | |
+| A1.19 | Doctor Profile (Personal Info) | Home → Doctor list → tap a doctor. | Doctor profile (name, specialty, slots, etc.) opens. | ☐ | ☐ | |
+| A1.20 | My Doctor | Home → My Doctor. | Saved/booked doctor list opens. | ☐ | ☐ | |
+| A1.21 | Doctor Slot Booking | Home → select doctor → Book slot / select date. | Slot selection screen opens. | ☐ | ☐ | |
+| A1.22 | Online Link (Report) | Home → Report / Online Link (2nd version). | Online report link page opens. | ☐ | ☐ | |
+| A1.23 | My Doctor Slot | Home → My Doctor → Slot / Schedule. | My doctor slot screen opens. | ☐ | ☐ | |
+| A1.24 | Favorite Doctor List | Home → Add to Favorites / Favorite doctors. | Favorite doctor list opens. | ☐ | ☐ | |
+| A1.25 | Appointment Confirmation | Home → complete doctor booking flow → Confirm. | Confirmation screen (success/detail) opens. | ☐ | ☐ | |
+| A1.26 | My Orders | Home → My Orders. | Order list opens. | ☐ | ☐ | |
+| A1.27 | General Hospital Branch | Home → General Hospital / Branch. | Branch list or map opens. | ☐ | ☐ | |
+| A1.28 | My Doctor Branch | Home → My Doctor → Branch. | Doctor branch info opens. | ☐ | ☐ | |
+| A1.29 | My Attendance | Home → My Attendance (if in menu). | Attendance screen opens. | ☐ | ☐ | |
+| A1.30 | My Report | Home → My Report. | Report list opens. | ☐ | ☐ | |
+| A1.31 | Full Body Checkup | Home → Full Body Checkup / Health Package. | Full body checkup screen opens. | ☐ | ☐ | |
+| A1.32 | Home Call Service | Home → Home Call Service. | Home call service booking/UI opens. | ☐ | ☐ | |
+| A1.33 | General Service | Home → General Service. | General service screen opens. | ☐ | ☐ | |
+| A1.34 | Physiotherapy Service | Home → Physiotherapy. | Physiotherapy service screen opens. | ☐ | ☐ | |
+| A1.35 | Single Order Detail | Home → My Orders → tap an order. | Order detail page opens. | ☐ | ☐ | |
+| A1.36 | Report Detail | Home → My Report / report list → tap a report. | Report detail opens. | ☐ | ☐ | |
+| A1.37 | PDF Viewer | From any report detail → PDF view / download. | Report opens in PDF viewer. | ☐ | ☐ | |
+| A1.38 | Multi PDF Viewer | Where multiple PDFs are shown → tap. | Multiple PDF view/list opens. | ☐ | ☐ | |
+| A1.39 | Report Tracking | Home/Report → Report Tracking. | Report status/tracking opens. | ☐ | ☐ | |
+| A1.40 | Prescription | Home → Prescription (if in menu). | Prescription list/detail opens. | ☐ | ☐ | |
+| A1.41 | Online Service | Home → Online Service. | Online service menu/list opens. | ☐ | ☐ | |
+| A1.42 | Lab Test Screen | Home → Lab Test / Book Test. | Lab test list/category opens. | ☐ | ☐ | |
+| A1.43 | Health Package Screen | Home → Health Package. | Health package list opens. | ☐ | ☐ | |
+| A1.44 | BMI Calculator | Home → BMI Calculator. | BMI calculator form/result opens. | ☐ | ☐ | |
+| A1.45 | Cart | Home → Cart icon / Cart. | Cart screen (item list) opens. | ☐ | ☐ | |
+| A1.46 | Take Information | Home → Lab / Test book flow → Take Information step. | User input form opens. | ☐ | ☐ | |
+| A1.47 | Health Screen Package | Home → Health Screen Package. | Health screen package screen opens. | ☐ | ☐ | |
+| A1.48 | Lab Test (from Home) | Home → Lab Test menu. | Lab test section opens. | ☐ | ☐ | |
+| A1.49 | Vital Organs | Home → Vital Organs. | Vital organs test/UI opens. | ☐ | ☐ | |
+| A1.50 | Live Chat | Home → Live Chat. | Live chat screen opens. | ☐ | ☐ | |
+| A1.51 | ChatGPT | Home → ChatGPT / AI Chat. | Chat interface opens. | ☐ | ☐ | |
+| A1.52 | NEC Travels | Home → NEC Travels (if present). | NEC Travels screen opens. | ☐ | ☐ | |
+| A1.53 | Health Package Cart | Home → select Health Package → Cart. | Health package cart opens. | ☐ | ☐ | |
+| A1.54 | Web View | Any link that opens in-app web view. | Web page opens in-app. | ☐ | ☐ | |
+| A1.55 | Service Department | Home → Service Department. | Service-wise department list opens. | ☐ | ☐ | |
+| A1.56 | Forget Password | Login screen → Forget Password (if linked from home). | Reset password flow opens. | ☐ | ☐ | |
 
 ---
 
 ## A2. Doctor Tab
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| A2.1 | ডাক্তার ট্যাব হোম | নিচে **Doctor** ট্যাবে ট্যাপ করুন। | ডাক্তার ট্যাবের মূল স্ক্রিন (মেনু/অপশন) ওপেন হবে। | ☐ | ☐ | |
-| A2.2 | ডাক্তার প্রোফাইল | Doctor tab → কোনো ডাক্তার সিলেক্ট। | ডাক্তার প্রোফাইল (Personal Info) ওপেন হবে। | ☐ | ☐ | |
-| A2.3 | ডাক্তার স্লট | Doctor tab → ডাক্তার বুক → স্লট সিলেক্ট। | স্লট সিলেকশন স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A2.4 | আমার পরিবার (ডাক্তার ট্যাব) | Doctor tab → My Family। | পরিবারের মেম্বার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A2.5 | ফ্যামিলি হেলথ কার্ড | Doctor tab → Family Health Card। | ফ্যামিলি হেলথ কার্ড স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A2.6 | পরিবার এডিট / সদস্য যোগ | Doctor tab → My Family → Edit বা Add। | এডিট বা Add Member স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A2.7 | অ্যাপয়েন্টমেন্ট কনফার্মেশন | Doctor tab → বুকিং সম্পন্ন → কনফার্ম। | কনফার্মেশন স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A2.8 | আমার ডাক্তার স্লট/শাখা | Doctor tab → My Doctor Slot বা Branch। | স্লট/শাখা ইনফো ওপেন হবে। | ☐ | ☐ | |
-| A2.9 | স্পেশালাইজড ডিপার্টমেন্ট | Doctor tab → ডিপার্টমেন্ট। | ডিপার্টমেন্ট লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A2.10 | হাসপাতাল শাখা | Doctor tab → General Hospital Branch। | ব্রাঞ্চ লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A2.11 | ডাক্তার লিস্ট | Doctor tab → ডাক্তার খুঁজুন/লিস্ট। | ডাক্তার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A2.12 | আমার ডাক্তার | Doctor tab → My Doctor। | বুক করা ডাক্তার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A2.13 | পছন্দের ডাক্তার লিস্ট | Doctor tab → ফেভারিট ডাক্তার। | পছন্দের ডাক্তার লিস্ট ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| A2.1 | Doctor tab home | Tap **Doctor** tab at the bottom. | Doctor tab main screen (menu/options) opens. | ☐ | ☐ | |
+| A2.2 | Doctor Profile | Doctor tab → select a doctor. | Doctor profile (Personal Info) opens. | ☐ | ☐ | |
+| A2.3 | Doctor Slot | Doctor tab → Book doctor → select slot. | Slot selection screen opens. | ☐ | ☐ | |
+| A2.4 | My Family (Doctor tab) | Doctor tab → My Family. | Family member list opens. | ☐ | ☐ | |
+| A2.5 | Family Health Card | Doctor tab → Family Health Card. | Family Health Card screen opens. | ☐ | ☐ | |
+| A2.6 | Edit Family / Add Member | Doctor tab → My Family → Edit or Add. | Edit or Add Member screen opens. | ☐ | ☐ | |
+| A2.7 | Appointment Confirmation | Doctor tab → complete booking → Confirm. | Confirmation screen opens. | ☐ | ☐ | |
+| A2.8 | My Doctor Slot / Branch | Doctor tab → My Doctor Slot or Branch. | Slot/branch info opens. | ☐ | ☐ | |
+| A2.9 | Specialized Department | Doctor tab → Department. | Department list opens. | ☐ | ☐ | |
+| A2.10 | Hospital Branch | Doctor tab → General Hospital Branch. | Branch list opens. | ☐ | ☐ | |
+| A2.11 | Doctor List | Doctor tab → Find Doctor / List. | Doctor list opens. | ☐ | ☐ | |
+| A2.12 | My Doctor | Doctor tab → My Doctor. | Booked doctor list opens. | ☐ | ☐ | |
+| A2.13 | Favorite Doctor List | Doctor tab → Favorite doctors. | Favorite doctor list opens. | ☐ | ☐ | |
 
 ---
 
 ## A3. Lab Test Tab
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| A3.1 | ল্যাব টেস্ট হোম | নিচে **Lab Test** ট্যাবে ট্যাপ। | ল্যাব টেস্ট হোম (টেস্ট/প্যাকেজ অপশন) ওপেন হবে। | ☐ | ☐ | |
-| A3.2 | লাইভ চ্যাট | Lab Test tab → Live Chat। | লাইভ চ্যাট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A3.3 | চ্যাটবট | Lab Test tab → Chatbot। | চ্যাটবট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A3.4 | জেমিনি চ্যাটবট | Lab Test tab → Gemini Chatbot। | জেমিনি চ্যাট ইন্টারফেস ওপেন হবে। | ☐ | ☐ | |
-| A3.5 | চ্যাটজিপিটি | Lab Test tab → ChatGPT। | চ্যাটজিপিটি স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A3.6 | ভাইটাল অর্গান | Lab Test tab → Vital Organs। | ভাইটাল অর্গান টেস্ট/লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A3.7 | ল্যাব টেস্ট স্ক্রিন | Lab Test tab → টেস্ট সিলেক্ট/লিস্ট। | ল্যাব টেস্ট লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A3.8 | কার্ট | Lab Test tab → কার্ট। | ল্যাব কার্ট ওপেন হবে। | ☐ | ☐ | |
-| A3.9 | হেলথ প্যাকেজ | Lab Test tab → Health Packages। | হেলথ প্যাকেজ লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A3.10 | পিডিএফ ভিউয়ার | Lab Test tab → কোনো রিপোর্ট/পিডিএফ। | পিডিএফ ভিউয়ার ওপেন হবে। | ☐ | ☐ | |
-| A3.11 | ওয়েব ভিউ | Lab Test tab → যে লিংক ওয়েব ভিউ খোলে। | ওয়েবপেজ ইন-অ্যাপ ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| A3.1 | Lab Test home | Tap **Lab Test** tab at the bottom. | Lab Test home (test/package options) opens. | ☐ | ☐ | |
+| A3.2 | Live Chat | Lab Test tab → Live Chat. | Live chat screen opens. | ☐ | ☐ | |
+| A3.3 | Chatbot | Lab Test tab → Chatbot. | Chatbot screen opens. | ☐ | ☐ | |
+| A3.4 | Gemini Chatbot | Lab Test tab → Gemini Chatbot. | Gemini chat interface opens. | ☐ | ☐ | |
+| A3.5 | ChatGPT | Lab Test tab → ChatGPT. | ChatGPT screen opens. | ☐ | ☐ | |
+| A3.6 | Vital Organs | Lab Test tab → Vital Organs. | Vital organs test/list opens. | ☐ | ☐ | |
+| A3.7 | Lab Test Screen | Lab Test tab → Select test / list. | Lab test list opens. | ☐ | ☐ | |
+| A3.8 | Cart | Lab Test tab → Cart. | Lab cart opens. | ☐ | ☐ | |
+| A3.9 | Health Package | Lab Test tab → Health Packages. | Health package list opens. | ☐ | ☐ | |
+| A3.10 | PDF Viewer | Lab Test tab → any report/PDF. | PDF viewer opens. | ☐ | ☐ | |
+| A3.11 | Web View | Lab Test tab → link that opens web view. | Web page opens in-app. | ☐ | ☐ | |
 
 ---
 
 ## A4. Report Tab
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| A4.1 | রিপোর্ট হোম | নিচে **Report** ট্যাবে ট্যাপ। | রিপোর্ট ট্যাবের মূল স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A4.2 | অনলাইন লিংক (২য় ভার্সন) | Report tab → Online Link 2nd version। | অনলাইন রিপোর্ট লিংক পেজ ওপেন হবে। | ☐ | ☐ | |
-| A4.3 | SSL সাকসেস | Report tab → পেমেন্ট/লিংক ফ্লো → সাকসেস। | SSL সাকসেস পেজ ওপেন হবে। | ☐ | ☐ | |
-| A4.4 | ক্যানসেল স্ক্রিন | Report tab → কোনো ক্যানসেল ফ্লো। | ক্যানসেল স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A4.5 | ফেইল স্ক্রিন | Report tab → ফেইল হওয়া ফ্লো (যদি টেস্ট করা যায়)। | ফেইল স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A4.6 | পিডিএফ ভিউয়ার | Report tab → কোনো রিপোর্ট → পিডিএফ। | পিডিএফ ভিউয়ার ওপেন হবে। | ☐ | ☐ | |
-| A4.7 | মাল্টি পিডিএফ | Report tab → একাধিক পিডিএফ। | মাল্টি পিডিএফ ভিউ ওপেন হবে। | ☐ | ☐ | |
-| A4.8 | রিপোর্ট ডিটেইল | Report tab → রিপোর্ট লিস্ট → কোনো রিপোর্ট। | রিপোর্ট ডিটেইল ওপেন হবে। | ☐ | ☐ | |
-| A4.9 | রিপোর্ট ট্র্যাকিং | Report tab → Report Tracking। | ট্র্যাকিং স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A4.10 | ওয়েব ভিউ | Report tab → ওয়েব লিংক। | ওয়েব ভিউ ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| A4.1 | Report home | Tap **Report** tab at the bottom. | Report tab main screen opens. | ☐ | ☐ | |
+| A4.2 | Online Link (2nd version) | Report tab → Online Link 2nd version. | Online report link page opens. | ☐ | ☐ | |
+| A4.3 | SSL Success | Report tab → payment/link flow → Success. | SSL success page opens. | ☐ | ☐ | |
+| A4.4 | Cancel Screen | Report tab → any cancel flow. | Cancel screen opens. | ☐ | ☐ | |
+| A4.5 | Failed Screen | Report tab → failed flow (if testable). | Failed screen opens. | ☐ | ☐ | |
+| A4.6 | PDF Viewer | Report tab → any report → PDF. | PDF viewer opens. | ☐ | ☐ | |
+| A4.7 | Multi PDF | Report tab → multiple PDFs. | Multi PDF view opens. | ☐ | ☐ | |
+| A4.8 | Report Detail | Report tab → report list → tap a report. | Report detail opens. | ☐ | ☐ | |
+| A4.9 | Report Tracking | Report tab → Report Tracking. | Tracking screen opens. | ☐ | ☐ | |
+| A4.10 | Web View | Report tab → web link. | Web view opens. | ☐ | ☐ | |
 
 ---
 
 ## A5. Service (AllService) Tab
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| A5.1 | সেবা হোম | নিচে **Service** ট্যাবে ট্যাপ। | সেবার মূল মেনু/কার্ড লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A5.2 | অনলাইন সেবা | Service tab → Online Service। | অনলাইন সেবা স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.3 | ল্যাব টেস্ট | Service tab → Lab Test। | ল্যাব টেস্ট সেকশন ওপেন হবে। | ☐ | ☐ | |
-| A5.4 | হোম কল সেবা | Service tab → Home Call Service। | হোম কল সেবা স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.5 | হেলথ প্যাকেজ | Service tab → Health Packages। | হেলথ প্যাকেজ লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A5.6 | অ্যাপয়েন্টমেন্ট/ডিপার্টমেন্ট | Service tab → Appointment/ডিপার্টমেন্ট। | অ্যাপয়েন্টমেন্ট বা ডিপার্টমেন্ট লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A5.7 | ফ্যামিলি হেলথ কার্ড | Service tab → Family Health Card। | ফ্যামিলি হেলথ কার্ড ওপেন হবে। | ☐ | ☐ | |
-| A5.8 | হাসপাতাল শাখা | Service tab → General Hospital Branch। | ব্রাঞ্চ লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A5.9 | ফুল বডি চেকআপ | Service tab → Full Body Checkup। | ফুল বডি চেকআপ স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.10 | হেল্পলাইন | Service tab → Helpline। | হেল্পলাইন ওপেন হবে। | ☐ | ☐ | |
-| A5.11 | অ্যাম্বুলেন্স | Service tab → Ambulance। | অ্যাম্বুলেন্স বুকিং ওপেন হবে। | ☐ | ☐ | |
-| A5.12 | ফার্মেসি | Service tab → Pharmacy। | ফার্মেসি স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.13 | আপকামিং ফিচার | Service tab → Upcoming feature। | আপকামিং ফিচার মেসেজ ওপেন হবে। | ☐ | ☐ | |
-| A5.14 | জেনারেল সেবা | Service tab → General Service। | জেনারেল সেবা ওপেন হবে। | ☐ | ☐ | |
-| A5.15 | ফিজিও থেরাপি | Service tab → Physio Therapy। | ফিজিও থেরাপি স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.16 | আমার অর্ডার | Service tab → My Order। | অর্ডার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A5.17 | কার্ট | Service tab → Cart। | কার্ট ওপেন হবে। | ☐ | ☐ | |
-| A5.18 | ডাক্তার বুকিং ফ্লো | Service tab → ডাক্তার অ্যাপয়েন্টমেন্ট → লিস্ট → স্লট → কনফার্ম। | পুরো ডাক্তার বুকিং ফ্লো কাজ করবে। | ☐ | ☐ | |
-| A5.19 | আমার পরিবার | Service tab → My Family। | পরিবার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A5.20 | চ্যাট (লাইভ/বট/জেমিনি/চ্যাটজিপিটি) | Service tab → যেকোনো চ্যাট অপশন। | সংশ্লিষ্ট চ্যাট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.21 | IPD / OPD | Service tab → IPD বা OPD। | IPD/OPD স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.22 | আইপিডি ফিডব্যাক | Service tab → IPD → ফিডব্যাক। | ফিডব্যাক ফর্ম ওপেন হবে। | ☐ | ☐ | |
-| A5.23 | কেবিন পেশেন্ট | Service tab → Cabin Patient। | কেবিন পেশেন্ট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.24 | টেস্ট বুক | Service tab → Book Test। | টেস্ট বুকিং ফ্লো ওপেন হবে। | ☐ | ☐ | |
-| A5.25 | ল্যাব টেস্ট / ভাইটাল অর্গান | Service tab → Lab Test বা Vital Organs। | সংশ্লিষ্ট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.26 | পিডিএফ / ওয়েব ভিউ | Service tab → রিপোর্ট বা লিংক। | পিডিএফ বা ওয়েব ভিউ ওপেন হবে। | ☐ | ☐ | |
-| A5.27 | পরিবার এডিট/যোগ | Service tab → My Family → Edit বা Add। | এডিট/অ্যাড মেম্বার স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A5.28 | সেবা ডিপার্টমেন্ট | Service tab → Service Specialized Departments। | সেবা ডিপার্টমেন্ট লিস্ট ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| A5.1 | Service home | Tap **Service** tab at the bottom. | Service main menu/card list opens. | ☐ | ☐ | |
+| A5.2 | Online Service | Service tab → Online Service. | Online service screen opens. | ☐ | ☐ | |
+| A5.3 | Lab Test | Service tab → Lab Test. | Lab test section opens. | ☐ | ☐ | |
+| A5.4 | Home Call Service | Service tab → Home Call Service. | Home call service screen opens. | ☐ | ☐ | |
+| A5.5 | Health Package | Service tab → Health Packages. | Health package list opens. | ☐ | ☐ | |
+| A5.6 | Appointment / Department | Service tab → Appointment / Department. | Appointment or department list opens. | ☐ | ☐ | |
+| A5.7 | Family Health Card | Service tab → Family Health Card. | Family Health Card opens. | ☐ | ☐ | |
+| A5.8 | Hospital Branch | Service tab → General Hospital Branch. | Branch list opens. | ☐ | ☐ | |
+| A5.9 | Full Body Checkup | Service tab → Full Body Checkup. | Full body checkup screen opens. | ☐ | ☐ | |
+| A5.10 | Helpline | Service tab → Helpline. | Helpline opens. | ☐ | ☐ | |
+| A5.11 | Ambulance | Service tab → Ambulance. | Ambulance booking opens. | ☐ | ☐ | |
+| A5.12 | Pharmacy | Service tab → Pharmacy. | Pharmacy screen opens. | ☐ | ☐ | |
+| A5.13 | Upcoming Feature | Service tab → Upcoming feature. | Upcoming feature message opens. | ☐ | ☐ | |
+| A5.14 | General Service | Service tab → General Service. | General service opens. | ☐ | ☐ | |
+| A5.15 | Physiotherapy | Service tab → Physio Therapy. | Physiotherapy screen opens. | ☐ | ☐ | |
+| A5.16 | My Order | Service tab → My Order. | Order list opens. | ☐ | ☐ | |
+| A5.17 | Cart | Service tab → Cart. | Cart opens. | ☐ | ☐ | |
+| A5.18 | Doctor Booking Flow | Service tab → Doctor Appointment → list → slot → confirm. | Full doctor booking flow works. | ☐ | ☐ | |
+| A5.19 | My Family | Service tab → My Family. | Family list opens. | ☐ | ☐ | |
+| A5.20 | Chat (Live/Bot/Gemini/ChatGPT) | Service tab → any chat option. | Corresponding chat screen opens. | ☐ | ☐ | |
+| A5.21 | IPD / OPD | Service tab → IPD or OPD. | IPD/OPD screen opens. | ☐ | ☐ | |
+| A5.22 | IPD Feedback | Service tab → IPD → Feedback. | Feedback form opens. | ☐ | ☐ | |
+| A5.23 | Cabin Patient | Service tab → Cabin Patient. | Cabin patient screen opens. | ☐ | ☐ | |
+| A5.24 | Book Test | Service tab → Book Test. | Test booking flow opens. | ☐ | ☐ | |
+| A5.25 | Lab Test / Vital Organs | Service tab → Lab Test or Vital Organs. | Corresponding screen opens. | ☐ | ☐ | |
+| A5.26 | PDF / Web View | Service tab → report or link. | PDF or web view opens. | ☐ | ☐ | |
+| A5.27 | Edit/Add Family | Service tab → My Family → Edit or Add. | Edit/Add member screen opens. | ☐ | ☐ | |
+| A5.28 | Service Department | Service tab → Service Specialized Departments. | Service department list opens. | ☐ | ☐ | |
 
 ---
 
 ## A6. Profile Tab
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| A6.1 | প্রোফাইল/মাই অ্যাকাউন্ট | নিচে **Profile** ট্যাবে ট্যাপ। | প্রোফাইল হোম (মাই অ্যাকাউন্ট মেনু) ওপেন হবে; প্রোফাইল ছবি দেখা যাবে। | ☐ | ☐ | |
-| A6.2 | আমার বিস্তারিত | Profile tab → My Details / বিস্তারিত। | ইউজার ডিটেইল (নাম, ফোন ইত্যাদি) ওপেন হবে। | ☐ | ☐ | |
-| A6.3 | সেভ করা ঠিকানা | Profile tab → Saved Addresses। | ঠিকানার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A6.4 | নতুন ঠিকানা যোগ | Profile tab → Saved Addresses → Add New। | নতুন ঠিকানা ফর্ম ওপেন হবে। | ☐ | ☐ | |
-| A6.5 | ঠিকানা এডিট | Profile tab → Saved Addresses → কোনো ঠিকানা → Edit। | এডিট ঠিকানা ফর্ম ওপেন হবে। | ☐ | ☐ | |
-| A6.6 | হেল্প ও সাপোর্ট | Profile tab → Help & Support। | হেল্প/সাপোর্ট পেজ ওপেন হবে। | ☐ | ☐ | |
-| A6.7 | অ্যাবাউট আস | Profile tab → About Us। | অ্যাবাউট আস কন্টেন্ট ওপেন হবে। | ☐ | ☐ | |
-| A6.8 | নোটিফিকেশন | Profile tab → Notification। | নোটিফিকেশন সেটিং/লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A6.9 | পিডিএফ ভিউয়ার | Profile tab → যেকোনো পিডিএফ লিংক। | পিডিএফ ভিউয়ার ওপেন হবে। | ☐ | ☐ | |
-| A6.10 | আমার অর্ডার | Profile tab → My Order। | অর্ডার লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| A6.11 | সিঙ্গেল অর্ডার ডিটেইল | Profile tab → My Order → কোনো অর্ডার। | অর্ডার ডিটেইল ওপেন হবে। | ☐ | ☐ | |
-| A6.12 | লাইভ চ্যাট/চ্যাটবট/জেমিনি/চ্যাটজিপিটি | Profile tab → যেকোনো চ্যাট অপশন। | সংশ্লিষ্ট চ্যাট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| A6.13 | ডাক্তার প্রোফাইল এডিট | Profile tab → Doctor Edit Profile (ডাক্তার ইউজার হলে)। | ডাক্তার প্রোফাইল এডিট ফর্ম ওপেন হবে। | ☐ | ☐ | |
-| A6.14 | ডাক্তার প্রোফাইল ভিউ | Profile tab → Doctor Profile। | ডাক্তার প্রোফাইল ভিউ ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| A6.1 | Profile / My Account | Tap **Profile** tab at the bottom. | Profile home (My Account menu) opens; profile picture visible. | ☐ | ☐ | |
+| A6.2 | My Details | Profile tab → My Details. | User details (name, phone, etc.) open. | ☐ | ☐ | |
+| A6.3 | Saved Addresses | Profile tab → Saved Addresses. | Address list opens. | ☐ | ☐ | |
+| A6.4 | Add New Address | Profile tab → Saved Addresses → Add New. | New address form opens. | ☐ | ☐ | |
+| A6.5 | Edit Address | Profile tab → Saved Addresses → tap an address → Edit. | Edit address form opens. | ☐ | ☐ | |
+| A6.6 | Help & Support | Profile tab → Help & Support. | Help/Support page opens. | ☐ | ☐ | |
+| A6.7 | About Us | Profile tab → About Us. | About Us content opens. | ☐ | ☐ | |
+| A6.8 | Notification | Profile tab → Notification. | Notification settings/list opens. | ☐ | ☐ | |
+| A6.9 | PDF Viewer | Profile tab → any PDF link. | PDF viewer opens. | ☐ | ☐ | |
+| A6.10 | My Order | Profile tab → My Order. | Order list opens. | ☐ | ☐ | |
+| A6.11 | Single Order Detail | Profile tab → My Order → tap an order. | Order detail opens. | ☐ | ☐ | |
+| A6.12 | Live Chat / Chatbot / Gemini / ChatGPT | Profile tab → any chat option. | Corresponding chat screen opens. | ☐ | ☐ | |
+| A6.13 | Doctor Profile Edit | Profile tab → Doctor Edit Profile (for doctor user). | Doctor profile edit form opens. | ☐ | ☐ | |
+| A6.14 | Doctor Profile View | Profile tab → Doctor Profile. | Doctor profile view opens. | ☐ | ☐ | |
 
 ---
 
-# Part B — Drawer Menu (হ্যামবার্গার/মেনু থেকে)
+# Part B — Drawer Menu
 
-**কিভাবে ড্রয়ার খুলবেন:** স্ক্রিনের উপরে/পাশে মেনু আইকন (☰) ট্যাপ করুন। ড্রয়ার ডান দিক থেকে খুলবে।
+**How to open the drawer:** Tap the menu icon (☰) at the top/side of the screen. The drawer opens from the right.
 
 ---
 
 ## B1. Drawer — Home
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B1.1 | হোম (ড্রয়ার থেকে) | ড্রয়ার ওপেন → **Home** ট্যাপ। | ড্রয়ার বন্ধ হয়ে হোম ট্যাব ওপেন হবে; নিচে Home ট্যাব সিলেক্ট থাকবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B1.1 | Home (from Drawer) | Open drawer → tap **Home**. | Drawer closes and Home tab opens; Home tab selected at bottom. | ☐ | ☐ | |
 
 ---
 
 ## B2. Drawer — My Profile
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B2.1 | মাই প্রোফাইল (ড্রয়ার থেকে) | ড্রয়ার ওপেন → **My Profile** ট্যাপ। | ড্রয়ার বন্ধ হয়ে প্রোফাইল সেকশন ওপেন হবে (মাই অ্যাকাউন্ট স্ক্রিন); প্রোফাইল ট্যাব সিলেক্ট থাকতে পারে। | ☐ | ☐ | |
-| B2.2 | মাই অ্যাকাউন্ট স্ক্রিন | ড্রয়ার → My Profile। | প্রোফাইল ইনডেক্স পেজ (মেনু লিস্ট) ওপেন হবে। | ☐ | ☐ | |
-| B2.3 | প্রোফাইল পেজ / বিস্তারিত / ঠিকানা | প্রোফাইল থেকে যেকোনো সাবমেনু। | সংশ্লিষ্ট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B2.1 | My Profile (from Drawer) | Open drawer → tap **My Profile**. | Drawer closes and Profile section opens (My Account screen); Profile tab may be selected. | ☐ | ☐ | |
+| B2.2 | My Account screen | Drawer → My Profile. | Profile index page (menu list) opens. | ☐ | ☐ | |
+| B2.3 | Profile page / Details / Address | From Profile → any submenu. | Corresponding screen opens. | ☐ | ☐ | |
 
 ---
 
-## B3. Drawer — Doctor Menu (শুধু ডাক্তার ইউজার — Permission: DoctorPanel)
+## B3. Drawer — Doctor Menu (Doctor users only — Permission: DoctorPanel)
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B3.1 | ডাক্তার মেনু হোম | ড্রয়ার ওপেন → **Doctor Menu** ট্যাপ। (ডাক্তার অ্যাকাউন্ট দিয়ে লগইন থাকতে হবে।) | ডাক্তার মেনু হোম স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| B3.2 | শাখা অনুযায়ী পেশেন্ট | Doctor Menu → Branch wise patients। | শাখা অনুযায়ী পেশেন্ট লিস্ট/ইউআই ওপেন হবে। | ☐ | ☐ | |
-| B3.3 | পেশেন্ট লিস্ট | Doctor Menu → Patient List। | পেশেন্ট লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| B3.4 | ডাক্তার চেম্বার | Doctor Menu → Doctor Chamber। | ডাক্তার চেম্বার স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| B3.5 | ডাক্তার লিভ | Doctor Menu → Doctor Leave। | লিভ রিকোয়েস্ট/ইউআই ওপেন হবে। | ☐ | ☐ | |
-| B3.6 | সকাল সেশন | Doctor Menu → Doctor Chamber Morning। | সকাল সেশন স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| B3.7 | সন্ধ্যা সেশন | Doctor Menu → Doctor Chamber Evening। | সন্ধ্যা সেশন স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B3.1 | Doctor Menu home | Open drawer → tap **Doctor Menu**. (Must be logged in with doctor account.) | Doctor Menu home screen opens. | ☐ | ☐ | |
+| B3.2 | Branch-wise patients | Doctor Menu → Branch wise patients. | Branch-wise patient list/UI opens. | ☐ | ☐ | |
+| B3.3 | Patient List | Doctor Menu → Patient List. | Patient list opens. | ☐ | ☐ | |
+| B3.4 | Doctor Chamber | Doctor Menu → Doctor Chamber. | Doctor chamber screen opens. | ☐ | ☐ | |
+| B3.5 | Doctor Leave | Doctor Menu → Doctor Leave. | Leave request/UI opens. | ☐ | ☐ | |
+| B3.6 | Morning Session | Doctor Menu → Doctor Chamber Morning. | Morning session screen opens. | ☐ | ☐ | |
+| B3.7 | Evening Session | Doctor Menu → Doctor Chamber Evening. | Evening session screen opens. | ☐ | ☐ | |
 
 ---
 
 ## B4. Drawer — VMIS (Permission: Mobile.VMIS)
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B4.1 | VMIS মেনু | ড্রয়ার ওপেন → **VMIS** ট্যাপ। (VMIS পারমিশন থাকা অ্যাকাউন্ট দিয়ে।) | VMIS মডিউল স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B4.1 | VMIS menu | Open drawer → tap **VMIS**. (Account with VMIS permission.) | VMIS module screen opens. | ☐ | ☐ | |
 
 ---
 
-## B5. Drawer — MR Menu (MR / Pharmaceutical ইউজার)
+## B5. Drawer — MR Menu (MR / Pharmaceutical user)
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B5.1 | MR মেনু হোম | ড্রয়ার ওপেন → **MR Menu** ট্যাপ। | MR মেনু হোম ওপেন হবে। | ☐ | ☐ | |
-| B5.2 | MR প্রোফাইল | MR Menu → MR Profile। | MR প্রোফাইল ওপেন হবে। | ☐ | ☐ | |
-| B5.3 | আপলোড | MR Menu → Upload। | আপলোড স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B5.1 | MR Menu home | Open drawer → tap **MR Menu**. | MR menu home opens. | ☐ | ☐ | |
+| B5.2 | MR Profile | MR Menu → MR Profile. | MR profile opens. | ☐ | ☐ | |
+| B5.3 | Upload | MR Menu → Upload. | Upload screen opens. | ☐ | ☐ | |
 
 ---
 
 ## B6. Drawer — Appointment
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B6.1 | অ্যাপয়েন্টমেন্ট ল্যান্ডিং | ড্রয়ার ওপেন → **Appointment** ট্যাপ। | স্পেশালাইজড ডিপার্টমেন্ট/অ্যাপয়েন্টমেন্ট ল্যান্ডিং পেজ ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B6.1 | Appointment landing | Open drawer → tap **Appointment**. | Specialized Department / Appointment landing page opens. | ☐ | ☐ | |
 
 ---
 
 ## B7. Drawer — Services
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B7.1 | সেবা ট্যাব (ড্রয়ার থেকে) | ড্রয়ার ওপেন → **Services** ট্যাপ। | ড্রয়ার বন্ধ হয়ে Service ট্যাব ওপেন হবে; নিচে Service ট্যাব সিলেক্ট থাকবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B7.1 | Service tab (from Drawer) | Open drawer → tap **Services**. | Drawer closes and Service tab opens; Service tab selected at bottom. | ☐ | ☐ | |
 
 ---
 
 ## B8. Drawer — My Health Record
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B8.1 | হেলথ রেকর্ড হোম | ড্রয়ার ওপেন → **My Health Record** ট্যাপ। | হেলথ রেকর্ড হোম স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| B8.2 | ইমেজ গ্যালারি | My Health Record → Image Gallery। | হেলথ রেকর্ড ইমেজ গ্যালারি ওপেন হবে। | ☐ | ☐ | |
-| B8.3 | সিঙ্গেল ইমেজ ভিউ | My Health Record → কোনো ইমেজ ট্যাপ। | সিঙ্গেল ইমেজ ভিউ (HealthRecordShowImage) ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B8.1 | Health Record home | Open drawer → tap **My Health Record**. | Health Record home screen opens. | ☐ | ☐ | |
+| B8.2 | Image Gallery | My Health Record → Image Gallery. | Health record image gallery opens. | ☐ | ☐ | |
+| B8.3 | Single Image View | My Health Record → tap an image. | Single image view (HealthRecordShowImage) opens. | ☐ | ☐ | |
 
 ---
 
 ## B9. Drawer — My Health Card
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B9.1 | হেলথ কার্ড | ড্রয়ার ওপেন → **My Health Card** ট্যাপ। | হেলথ কার্ড স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B9.1 | Health Card | Open drawer → tap **My Health Card**. | Health Card screen opens. | ☐ | ☐ | |
 
 ---
 
 ## B10. Drawer — Delivery (Permission: HomeCallServiceMan)
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B10.1 | ডেলিভারি হোম | ড্রয়ার ওপেন → **Delivery** ট্যাপ। (ডেলিভারি পারমিশন থাকা অ্যাকাউন্ট।) | ডেলিভারি হোম (Deliverable/Delivered ট্যাব বা লিস্ট) ওপেন হবে। | ☐ | ☐ | |
-| B10.2 | সিঙ্গেল ডেলিভারি তথ্য | Delivery → কোনো ডেলিভারি আইটেম। | সিঙ্গেল ডেলিভারি ডিটেইল ওপেন হবে। | ☐ | ☐ | |
-| B10.3 | ডেলিভারেবল লিস্ট | Delivery → Deliverable। | ডেলিভারেবল আইটেম লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| B10.4 | ডেলিভারি স্ক্যানার | Delivery → Scanner। | স্ক্যানার স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| B10.5 | ডেলিভারি OTP | Delivery → OTP ফ্লো। | OTP ইনপুট স্ক্রিন ওপেন হবে। | ☐ | ☐ | |
-| B10.6 | ডেলিভার্ড লিস্ট | Delivery → Delivered। | ডেলিভার্ড আইটেম লিস্ট ওপেন হবে। | ☐ | ☐ | |
-| B10.7 | ডেলিভার্ড আইটেম ডিটেইল | Delivery → Delivered → কোনো আইটেম। | সিঙ্গেল ডেলিভার্ড ইনফো ওপেন হবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B10.1 | Delivery home | Open drawer → tap **Delivery**. (Account with delivery permission.) | Delivery home (Deliverable/Delivered tab or list) opens. | ☐ | ☐ | |
+| B10.2 | Single delivery info | Delivery → tap a delivery item. | Single delivery detail opens. | ☐ | ☐ | |
+| B10.3 | Deliverable list | Delivery → Deliverable. | Deliverable item list opens. | ☐ | ☐ | |
+| B10.4 | Delivery Scanner | Delivery → Scanner. | Scanner screen opens. | ☐ | ☐ | |
+| B10.5 | Delivery OTP | Delivery → OTP flow. | OTP input screen opens. | ☐ | ☐ | |
+| B10.6 | Delivered list | Delivery → Delivered. | Delivered item list opens. | ☐ | ☐ | |
+| B10.7 | Delivered item detail | Delivery → Delivered → tap an item. | Single delivered info opens. | ☐ | ☐ | |
 
 ---
 
 ## B11. Drawer — Share App
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B11.1 | শেয়ার অ্যাপ | ড্রয়ার ওপেন → **Share App** ট্যাপ। | শেয়ার ডায়ালগ (সিস্টেম শেয়ার শীট) ওপেন হবে; অ্যাপ লিংক ও মেসেজ থাকবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B11.1 | Share App | Open drawer → tap **Share App**. | Share dialog (system share sheet) opens; app link and message are present. | ☐ | ☐ | |
 
 ---
 
 ## B12. Drawer — Logout
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| B12.1 | লগআউট কনফার্ম | ড্রয়ার ওপেন → **Logout** ট্যাপ। | "Are you sure you want to logout?" অ্যালার্ট ওপেন হবে। | ☐ | ☐ | |
-| B12.2 | লগআউট Yes | Logout → **Yes** ট্যাপ। | লগআউট লোডিং দেখাবে; তারপর সাইন-ইন স্ক্রিনে রিডাইরেক্ট হবে। | ☐ | ☐ | |
-| B12.3 | লগআউট Cancel | Logout → **Cancel** ট্যাপ। | অ্যালার্ট বন্ধ হবে; অ্যাপ লগইন স্টেটেই থাকবে। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| B12.1 | Logout confirm | Open drawer → tap **Logout**. | "Are you sure you want to logout?" alert appears. | ☐ | ☐ | |
+| B12.2 | Logout Yes | Logout → tap **Yes**. | Logout loading shows; then redirects to Sign-in screen. | ☐ | ☐ | |
+| B12.3 | Logout Cancel | Logout → tap **Cancel**. | Alert dismisses; app stays logged in. | ☐ | ☐ | |
 
 ---
 
-# Part C — সাধারণ (সব জায়গায় চেক করুন)
+# Part C — General (check across the app)
 
-| # | Test Case | Steps (কিভাবে যাবেন) | Expected Result (কি দেখতে পাবেন) | Pass | Fail | Notes |
-|---|-----------|----------------------|-----------------------------------|------|------|-------|
-| C1 | স্ট্যাটাস বার রঙ | যেকোনো স্ক্রিনে যান। | উপরের স্ট্যাটাস বার সবুজ (#3BB54A) বা অ্যাপ থিম অনুযায়ী। | ☐ | ☐ | |
-| C2 | ব্যাক বাটন | যেকোনো সাবস্ক্রিনে গিয়ে ব্যাক বাটন ট্যাপ। | আগের স্ক্রিনে ফিরে যাবে; ক্র্যাশ হবে না। | ☐ | ☐ | |
-| C3 | ট্যাব ও ড্রয়ার সিঙ্ক | কোনো ট্যাবে যান → ড্রয়ার ওপেন করুন। | ড্রয়ারে বর্তমান ট্যাব/পেজ অনুযায়ী সিলেক্টেড আইটেম হাইলাইট থাকবে। | ☐ | ☐ | |
-| C4 | পারমিশন অনুযায়ী ড্রয়ার | ভিন্ন ভিন্ন রোল দিয়ে লগইন করুন (পেশেন্ট, ডাক্তার, ডেলিভারি, MR)। | ড্রয়ারে শুধু সেই রোলের জন্য পারমিশন থাকা আইটেম দেখা যাবে। | ☐ | ☐ | |
-| C5 | প্রোফাইল ছবি (ট্যাব বার) | প্রোফাইলে ছবি সেট করা অ্যাকাউন্ট দিয়ে লগইন। | নিচের Profile ট্যাবে ইউজারের ছবি দেখা যাবে (placeholder না)। | ☐ | ☐ | |
-| C6 | কীবোর্ড খুললে ট্যাব বার | যেকোনো ইনপুট ফিল্ডে ট্যাপ করে কীবোর্ড ওপেন করুন। | ট্যাব বার লুকিয়ে যেতে পারে (অ্যাপ ডিজাইন অনুযায়ী)। | ☐ | ☐ | |
+| # | Test Case | Steps (How to get there) | Expected Result (What you should see) | Pass | Fail | Notes |
+|---|-----------|---------------------------|----------------------------------------|------|------|-------|
+| C1 | Status bar colour | Go to any screen. | Top status bar is green (#3BB54A) or per app theme. | ☐ | ☐ | |
+| C2 | Back button | Go to any sub-screen → tap back button. | Returns to previous screen; no crash. | ☐ | ☐ | |
+| C3 | Tab and Drawer sync | Go to any tab → open drawer. | Drawer highlights the item matching current tab/page. | ☐ | ☐ | |
+| C4 | Drawer by permission | Log in with different roles (Patient, Doctor, Delivery, MR). | Drawer shows only items allowed for that role. | ☐ | ☐ | |
+| C5 | Profile picture (tab bar) | Log in with account that has profile picture set. | Profile tab at bottom shows user photo (not placeholder). | ☐ | ☐ | |
+| C6 | Keyboard and tab bar | Tap any input field to open keyboard. | Tab bar may hide (per app design). | ☐ | ☐ | |
 
 ---
 
-**QA টিমের নোট:**  
-- নতুন বিল্ড টেস্ট করার আগে একবার পুরো চেকলিস্ট পড়ে নিন।  
-- যে স্ক্রিন অ্যাপে পাচ্ছেন না, **Steps** আবার মিলিয়ে দেখুন (মেনু নাম ভিন্ন থাকতে পারে)।  
-- **Fail** দিলে **Notes** কলামে সংক্ষেপে লিখুন কী ভুল হয়েছে (যেমন: "স্ক্রিন ওপেন হয় না", "ক্র্যাশ")।  
-- পারমিশন-ভিত্তিক ড্রয়ার আইটেম (Doctor Menu, VMIS, MR Menu, Delivery) সেই রোল দিয়ে আলাদা টেস্ট করুন।
+**Notes for QA Team**  
+- Read through the full checklist once before testing a new build.  
+- If you cannot find a screen, double-check the **Steps** (menu names may differ in the app).  
+- When marking **Fail**, briefly note in **Notes** what went wrong (e.g. "Screen does not open", "Crash").  
+- Test permission-based drawer items (Doctor Menu, VMIS, MR Menu, Delivery) with the relevant role accounts.
 
 ---
 
